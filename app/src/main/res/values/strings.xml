@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">RecyclerViewSamples</string>
+    <string name="main_item_decoration_button_text">Item Decoration</string>
+    <string name="item_decoration_divider_button_text">Divider</string>
+    <string name="item_decoration_gap_button_text">Gap</string>
+    <string name="main_grid_list_button_text">Grid List</string>
+    <string name="grid_recycler_view_button_text">Recycler View</string>
+    <string name="grid_increase_span_count_button_text">Increase Span Count</string>
+    <string name="grid_reduce_span_count_button_text">Reduce Span Count</string>
+    <string name="grid_grid_view_button_text">Grid View</string>
 </resources>
