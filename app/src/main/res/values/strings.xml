@@ -10,4 +10,7 @@
     <string name="grid_grid_view_button_text">Grid View</string>
     <string name="main_staggered_grid_button_text">Staggered Grid</string>
     <string name="staggered_layout_staggered_grid_layout_manager_button_text">Staggered Grid LayoutManager</string>
+    <string name="main_endless_load_button_text">Endless load</string>
+    <string name="endless_load_recycler_endless_load">RecyclerView Endless Load</string>
+    <string name="endless_load_nested_scroll_view_endless_load">NestedScrollView Endless Load</string>
 </resources>
