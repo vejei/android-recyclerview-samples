@@ -9,6 +9,11 @@ import androidx.fragment.app.Fragment
 import com.example.recyclerviewsamples.MainActivity
 import com.example.recyclerviewsamples.R
 
+/*
+Reference:
+https://stackoverflow.com/a/27037230/7706851
+https://stackoverflow.com/a/30701422/7706851
+ */
 class ItemDecorationFragment : Fragment() {
     private lateinit var dividerButton: Button
     private lateinit var gapButton: Button
