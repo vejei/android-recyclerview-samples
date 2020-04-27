@@ -17,4 +17,10 @@
         android:layout_height="wrap_content"
         android:text="@string/main_grid_list_button_text"/>
 
+    <Button
+        android:id="@+id/button_main_staggered_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_staggered_grid_button_text"/>
+
 </LinearLayout>

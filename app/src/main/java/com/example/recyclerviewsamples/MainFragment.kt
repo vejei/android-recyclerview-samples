@@ -8,10 +8,12 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import com.example.recyclerviewsamples.grid.GridFragment
 import com.example.recyclerviewsamples.itemdecoration.ItemDecorationFragment
+import com.example.recyclerviewsamples.staggeredgrid.StaggeredGridFragment
 
 class MainFragment : Fragment() {
     private lateinit var itemDecorationButton: Button
     private lateinit var gridListButton: Button
+    private lateinit var staggeredGridButton: Button
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,6 +28,7 @@ class MainFragment : Fragment() {
 
         itemDecorationButton = view.findViewById(R.id.button_main_item_decoration)
         gridListButton = view.findViewById(R.id.button_main_grid_list)
+        staggeredGridButton = view.findViewById(R.id.button_main_staggered_grid)
 
         itemDecorationButton.setOnClickListener {
             (activity as MainActivity).addFragment(ItemDecorationFragment())
@@ -33,6 +36,10 @@ class MainFragment : Fragment() {
 
         gridListButton.setOnClickListener {
             (activity as MainActivity).addFragment(GridFragment())
+        }
+
+        staggeredGridButton.setOnClickListener {
+            (activity as MainActivity).addFragment(StaggeredGridFragment())
         }
     }
 }
