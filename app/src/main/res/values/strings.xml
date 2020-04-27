@@ -8,4 +8,6 @@
     <string name="grid_increase_span_count_button_text">Increase Span Count</string>
     <string name="grid_reduce_span_count_button_text">Reduce Span Count</string>
     <string name="grid_grid_view_button_text">Grid View</string>
+    <string name="main_staggered_grid_button_text">Staggered Grid</string>
+    <string name="staggered_layout_staggered_grid_layout_manager_button_text">Staggered Grid LayoutManager</string>
 </resources>
