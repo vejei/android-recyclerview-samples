@@ -11,7 +11,7 @@ import com.example.recyclerviewsamples.R
 class ExtraAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     private val data = mutableListOf<String>(
         "First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth", "Ninth",
-        "Tenth", "Eleventh", "Twelfth"
+        "Tenth"
     )
     private lateinit var statusViewHolder: StatusViewHolder
 
@@ -40,7 +40,7 @@ class ExtraAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             DATA_VIEW_TYPE -> {
                 DataViewHolder(
                     LayoutInflater.from(parent.context)
-                        .inflate(R.layout.item, parent, false)
+                        .inflate(R.layout.item_image_text, parent, false)
                 )
             }
             STATUS_VIEW_TYPE -> {
@@ -52,7 +52,7 @@ class ExtraAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
             }
             else -> DataViewHolder(
                 LayoutInflater.from(parent.context)
-                    .inflate(R.layout.item, parent, false)
+                    .inflate(R.layout.item_image_text, parent, false)
             )
         }
     }
