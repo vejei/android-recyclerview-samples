@@ -39,7 +39,7 @@ class GridViewAdapter : BaseAdapter() {
     @SuppressLint("ViewHolder")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val view = LayoutInflater.from(parent?.context)
-            .inflate(R.layout.item_grid_view, parent, false)
+            .inflate(R.layout.item_grid_grid_view, parent, false)
         view.findViewById<TextView>(R.id.text_view_content).text = data[position]
         return view
     }
