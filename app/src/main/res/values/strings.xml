@@ -13,4 +13,10 @@
     <string name="main_endless_load_button_text">Endless load</string>
     <string name="endless_load_recycler_endless_load">RecyclerView Endless Load</string>
     <string name="endless_load_nested_scroll_view_endless_load">NestedScrollView Endless Load</string>
+    <string name="main_item_enter_animation_button_text">Item Enter Animation</string>
+    <string name="main_action_mode_button_text">Action Mode</string>
+    <string name="action_mode_recycler_view_action_mode_button_text">RecyclerView Action Mode</string>
+    <string name="action_mode_list_view_action_mode_button_text">ListView Action Mode</string>
+    <string name="menu_title_delete_all">Delete All</string>
+    <string name="menu_title_select_all">Select All</string>
 </resources>
