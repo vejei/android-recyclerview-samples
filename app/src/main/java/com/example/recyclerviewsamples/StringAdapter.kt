@@ -21,7 +21,7 @@ class StringAdapter : RecyclerView.Adapter<StringAdapter.ViewHolder>() {
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item, parent, false))
+        return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_text, parent, false))
     }
 
     override fun getItemCount(): Int {
