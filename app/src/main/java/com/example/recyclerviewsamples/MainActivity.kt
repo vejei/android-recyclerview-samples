@@ -10,14 +10,16 @@ import com.example.recyclerviewsamples.animation.ItemEnterAnimationFragment
 import com.example.recyclerviewsamples.endlessload.EndlessLoadFragment
 import com.example.recyclerviewsamples.endlessload.NestedScrollViewEndlessLoadFragment
 import com.example.recyclerviewsamples.endlessload.RecyclerViewEndlessLoadFragment
-import com.example.recyclerviewsamples.gesture.DragAndDropFragment
 import com.example.recyclerviewsamples.gesture.GestureFragment
+import com.example.recyclerviewsamples.gesture.GridListFragment
+import com.example.recyclerviewsamples.gesture.VerticalListFragment
 import com.example.recyclerviewsamples.grid.RecyclerViewFragment
 import com.example.recyclerviewsamples.grid.GridFragment
 import com.example.recyclerviewsamples.grid.GridViewFragment
 import com.example.recyclerviewsamples.itemdecoration.DividerFragment
 import com.example.recyclerviewsamples.itemdecoration.GapFragment
 import com.example.recyclerviewsamples.itemdecoration.ItemDecorationFragment
+import com.example.recyclerviewsamples.paging.PagingFragment
 import com.example.recyclerviewsamples.staggeredgrid.StaggeredGridFragment
 import com.example.recyclerviewsamples.staggeredgrid.StaggeredGridLayoutManagerFragment
 
@@ -42,7 +44,8 @@ class MainActivity : AppCompatActivity() {
                 is EndlessLoadFragment, is RecyclerViewEndlessLoadFragment, is NestedScrollViewEndlessLoadFragment -> R.string.main_endless_load_button_text
                 is ItemEnterAnimationFragment -> R.string.main_item_enter_animation_button_text
                 is ActionModeFragment, is ListViewActionModeFragment, is RecyclerViewActionModeFragment -> R.string.main_action_mode_button_text
-                is GestureFragment, is DragAndDropFragment -> R.string.main_item_gesture_button_text
+                is GestureFragment, is VerticalListFragment, is GridListFragment -> R.string.main_item_gesture_button_text
+                is PagingFragment -> R.string.main_paging_button_text
                 else -> R.string.app_name
             }
             supportActionBar?.setTitle(titleRes)
